@@ -1,0 +1,16 @@
+Source: msutils
+Section: science
+Priority: optional
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), dh-python
+Standards-Version: 3.9.4
+Homepage: https://github.com/SpheMakh/msutils
+Vcs-Git: git://github.com/kernsuite-debian/msutils.git
+Vcs-Browser: https://github.com/kernsuite-debian/msutils
+X-Python-Version: >= 2.7
+
+Package: msutils
+Architecture: any
+Provides: ${python:Provides}
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-casacore, python-numpy
+Description: A set of CASA Measurement Set manipulation tools
