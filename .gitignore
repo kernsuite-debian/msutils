@@ -1,5 +1,3 @@
-MSUtils.egg-info/
-build/
 debian/msutils.debhelper.log
 debian/msutils.postinst.debhelper
 debian/msutils.prerm.debhelper
