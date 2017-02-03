@@ -3,3 +3,7 @@ debian/msutils.postinst.debhelper
 debian/msutils.prerm.debhelper
 debian/msutils.substvars
 debian/msutils/
+MSUtils.egg-info/
+build/
+debian/debhelper-build-stamp
+debian/files
