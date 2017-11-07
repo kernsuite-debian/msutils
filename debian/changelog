@@ -1,3 +1,9 @@
+msutils (0.0.2-1kern3) xenial; urgency=medium
+
+  * update signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 16:27:13 +0200
+
 msutils (0.0.2-1kern2) xenial; urgency=medium
 
   * add missing python-setuptools dependency
