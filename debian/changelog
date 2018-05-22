@@ -1,3 +1,9 @@
+msutils (0.9.6-1kern1) bionic; urgency=medium
+
+  * New upstream version 0.9.6
+
+ -- KERN packaging <packaging@kernsuite.info>  Fri, 18 May 2018 11:07:45 +0000
+
 msutils (0.0.2-1kern3) xenial; urgency=medium
 
   * update signature
