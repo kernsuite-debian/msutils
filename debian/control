@@ -2,15 +2,36 @@ Source: msutils
 Section: science
 Priority: optional
 Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0), dh-python, python, python-setuptools
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python,
+               python3,
+               python-setuptools,
+               python3-setuptools,
+               python-casacore,
+               python3-casacore
+Standards-Version: 4.4.1
 Homepage: https://github.com/SpheMakh/msutils
 Vcs-Git: git://github.com/kernsuite-debian/msutils.git
 Vcs-Browser: https://github.com/kernsuite-debian/msutils
 X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.6
+
+
+Package: python-msutils
+Architecture: any
+Provides: ${python:Provides}
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-casacore, python-numpy
+Description: A set of CASA Measurement Set manipulation tools
+
+Package: python3-msutils
+Architecture: any
+Provides: ${python:Provides}
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python3-casacore, python3-numpy
+Description: A set of CASA Measurement Set manipulation tools
 
 Package: msutils
 Architecture: any
 Provides: ${python:Provides}
-Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python-casacore, python-numpy
+Depends: ${shlibs:Depends}, ${python:Depends}, ${misc:Depends}, python3-msutils
 Description: A set of CASA Measurement Set manipulation tools

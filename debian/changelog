@@ -1,3 +1,10 @@
+msutils (1.1.3-1kern1) bionic; urgency=medium
+
+  [ Athanaseus Javas Ramaila ]
+  * New upstream version 1.1.3
+
+ -- KERN packaging <packaging@kernsuite.info>  Thu, 04 Jun 2020 15:29:14 +0200
+
 msutils (0.9.6-1kern1) bionic; urgency=medium
 
   * New upstream version 0.9.6
